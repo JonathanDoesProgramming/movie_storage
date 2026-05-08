@@ -49,15 +49,14 @@ a:hover {
 }
 
 .get-started {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
     margin-inline: var(--margin-section);
 }
 
-.get-started div {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.main-heading {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,16 +66,40 @@ a:hover {
 
 h1 {
     font-size: var(--headings);
-    margin-bottom: var(--margin-normal);
-    font-weight: var(--font-weight-normal);
+    margin-bottom: 4rem;
+    font-weight: 300;
+    letter-spacing: var(--letter-spacing-normal);
+    color: var(--dark-color);
 }
 
 p {
     line-height: var(--line-height-normal);
+    letter-spacing: var(--letter-spacing-normal);
     font-size: var(--paragraphs);
     max-width: 80vw;
+    color: var(--dark-color);
 }
 
-button {
-    margin-top: var(--margin-normal);
+.main-overview {
+    border-radius: 2px;     
+    /* max-width: 50vw; */
+    max-width: 100%;
+}
+
+.main-overview img {
+    width: 100%;
+    height: 100%;
+}
+
+.overview-images {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.overview-images img {
+    max-width: 100%;
+    height: auto;
 }

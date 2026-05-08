@@ -11,13 +11,15 @@ html {
     --dark-color: #042C46;
     --padding-normal: 2rem;
     --margin-normal: 2rem;
-    --line-height-normal: 2rem;
+    --line-height-normal: 3rem;
+    --letter-spacing-normal: 0.1rem;
     --font-size-normal: 1.5rem;
     --font-weight-normal: 400;
 
+    /* TEXT SIZING */
     --headings: 3rem;
     --paragraphs: 1.5rem;
 
+    /* SPACING */
     --margin-section: 10rem
-
 }
