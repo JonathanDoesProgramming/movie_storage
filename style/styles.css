@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body {
+    background-color: var(--main-bg);
+}
+
+header {
+    padding: var(--padding-normal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+nav {
+    padding: var(--padding-normal);
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: var(--margin-normal);
+}   
+
+li {
+    list-style: none;
+}
+
+a {
+    color: var(--dark-color );
+    text-decoration: none;
+    font-weight: var(--font-weight-normal);
+    font-size: 1.5rem;
+    outline: none;
+}
+
+a:hover {
+    font-weight: 500;
+    color:  var(--dark-color);
+    transition: all ease-in .2s;
+}
+
+.get-started {
+    margin-inline: var(--margin-section);
+}
+
+.get-started div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-normal);
+}
+
+h1 {
+    font-size: var(--headings);
+    margin-bottom: var(--margin-normal);
+    font-weight: var(--font-weight-normal);
+}
+
+p {
+    line-height: var(--line-height-normal);
+    font-size: var(--paragraphs);
+    max-width: 80vw;
+}
+
+button {
+    margin-top: var(--margin-normal);
+}
